@@ -3,7 +3,7 @@
         return 'https://membervault.api-us1.com';
     }
     function ac_get_key(){
-        return 'd43265a3b821267e8dcc7ff2c544e8dd229f4cd4e31a76e204508e0e786c50e02af91b88';
+        return 'testapikey';
     }
     
     function ac_add_update_contact( $p_sEmail, $p_sFirstName = null, $p_sLastName = null ) {

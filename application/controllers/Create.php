@@ -25,7 +25,7 @@ class create extends CI_Controller {
 		$data['g_aaSettings'] = $this->settings_model->get_all_by_name();
 
 		$fields = array(
-			'api_key' => urlencode( 'd43265a3b821267e8dcc7ff2c544e8dd229f4cd4e31a76e204508e0e786c50e02af91b88' ),
+			'api_key' => urlencode( 'testapikey' ),
 			'api_output' => urlencode( 'json' ),
 			'id' => urlencode( $_GET['id'] )
 		);
@@ -62,7 +62,7 @@ class create extends CI_Controller {
 		$l_asPayload['subdomain'] = strtolower( $l_asPayload['subdomain'] );
 
 		$fields = array(
-			'api_key' => urlencode( 'd43265a3b821267e8dcc7ff2c544e8dd229f4cd4e31a76e204508e0e786c50e02af91b88' ),
+			'api_key' => urlencode( 'testapikey' ),
 			'api_output' => urlencode( 'json' ),
 			'id' => urlencode( $_GET['id'] )
 		);

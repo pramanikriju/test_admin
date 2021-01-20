@@ -1,7 +1,7 @@
 <?php
-	define('BASE_URL', 'http://www.admin.local/');
+	define('BASE_URL', 'http://www.testadmin.local/');
 	define('DB_HOST', '127.0.0.1');
-	define('DB_NAME', 'admin');
+	define('DB_NAME', 'testadmin');
 	define('DB_USER', 'root');
 	define('DB_PASSWORD', 'testpassword');
 
